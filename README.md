@@ -1,16 +1,91 @@
-# weather_app
+# Weather App
 
-A new Flutter project.
+Welcome to the **Weather App**! This is a simple and user-friendly weather application built using **Flutter**. It allows users to check the current weather conditions and hourly forecasts for any location using the **OpenWeatherMap API**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+### 1. **Current Weather**
+- Displays the current temperature in Celsius.
+- Shows the current weather condition (e.g., Clear, Cloudy, etc.).
+- Includes a refresh button to update the weather data.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2. **Hourly Forecast**
+- Provides weather forecasts at 3-hour intervals.
+- Displays temperature and weather conditions for each interval.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 3. **Additional Information**
+- Current **humidity** percentage.
+- Current **wind speed** in meters per second.
+- Current **pressure** in hPa.
+
+---
+
+## Screenshots
+
+<video width="320" height="600" controls>
+  <source src="movie.mp4" type="video/mp4">
+</video>
+
+---
+
+## Installation
+
+Follow these steps to run the app on your local machine:
+
+### Prerequisites:
+1. Flutter SDK installed on your system. [Install Flutter](https://flutter.dev/docs/get-started/install)
+2. OpenWeatherMap API Key. [Get your API Key](https://openweathermap.org/api)
+
+### Steps:
+1. Clone this repository:
+
+        git clone https://github.com/yash2895/weather_app.git
+
+2. Navigate to the project directory:
+
+        cd weather_app
+
+3. Install dependencies:
+
+        flutter pub get
+
+4. Create a dart file called secrets.dart and then paste the following command and replace Your_API_Key with your own API key
+
+        const openWeatherAPIKey = 'Your_API_Key';
+
+5. Run the app:
+
+        flutter run
+
+
+---
+
+## Technologies Used
+
+- **Flutter**: Framework for building cross-platform applications.
+- **Dart**: Programming language used with Flutter.
+- **OpenWeatherMap API**: Provides weather data for locations worldwide.
+
+---
+
+## Future Improvements
+
+Here are some features that could be added in future versions:
+1. Search functionality to find weather by city name.
+2. Support for multiple units (Celsius, Fahrenheit, Kelvin).
+3. Weekly forecast display.
+4. Dark mode support.
+
+---
+
+## Feedback & Contributions
+
+Feel free to open issues or submit pull requests if you have suggestions or improvements for this project!
+
+---
+
+Thank you for checking out the Weather App! 😊
+
+---
