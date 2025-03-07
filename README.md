@@ -23,10 +23,7 @@ Welcome to the **Weather App**! This is a simple and user-friendly weather appli
 ---
 
 ## Screenshots
-
-[![Watch the video](https://raw.githubusercontent.com/yash2895/weather_app/main/screenshot1.png)](https://raw.githubusercontent.com/yash2895/weather_app/main/movie.mp4)
-
-
+<https://github.com/user-attachments/assets/f49a191f-5dd0-4444-aa2c-15a69a6dae23>
 ---
 
 ## Installation
