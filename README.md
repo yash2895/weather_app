@@ -24,9 +24,8 @@ Welcome to the **Weather App**! This is a simple and user-friendly weather appli
 
 ## Screenshots
 
-<video width="320" height="600" controls>
-  <source src="movie.mp4" type="video/mp4">
-</video>
+[![Watch the video](https://raw.githubusercontent.com/yash2895/weather_app/main/screenshot1.png)](https://raw.githubusercontent.com/yash2895/weather_app/main/movie.mp4)
+
 
 ---
 
